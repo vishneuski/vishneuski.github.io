@@ -1,0 +1,15 @@
+:root {
+  --white: #FFFFFF;
+  --wheat: #F2E6B6;
+  --cofee: #412A22;
+  --cadet-blue: #8F9E8B;
+  --steel-blue: #5B7876;
+  --signal-black: #292929;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-family: "Helvetica", Verdana sans-serif;
+}

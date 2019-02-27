@@ -1,0 +1,148 @@
+@import url(./../style.css);
+@import url(./loft-button.css);
+
+:root {
+  --button-contacts-bg-color: var(--signal-black);
+  --contacts-layout-border-color: var(--signal-black);
+  --contacts-message-text-color: var(--white);
+  --contacts-message-bg-color: var(--signal-black);
+  --contacts-message__headline-border-color: var(--white);
+  --contacts-message__form-input-field-border-color: var(--white);
+  --contacts-message__form-input-field-text-color: var(--white);
+  --contacts-message__form-input-field-bg-color: var(--signal-black);
+  --contacts-message__form-textarea-field-border-color: var(--white);
+  --contacts-message__form-textarea-field-text-color: var(--white);
+  --contacts-message__form-textarea-field-bg-color: var(--signal-black);
+  --contacts-address__headline-border-color: var(--signal-black);
+}
+
+.contacts-layout {
+  display: flex;
+  width: 100%;
+  border: 1px solid var(--contacts-layout-border-color);
+}
+
+.contacts-message {
+  box-sizing: border-box;
+  padding: 4.5em 2.5em 2em;
+  width: calc(50% - 1em);
+  color: var(--contacts-message-text-color);
+  background: var(--contacts-message-bg-color);
+}
+
+.contacts-message__headline {
+  width: max-content;
+  width: -moz-max-content;
+  margin-bottom: 2em;
+  border-bottom: 1px solid var(--contacts-message__headline-border-color);
+  letter-spacing: 0.1em;
+}
+
+.contacts-message__form-input {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.contacts-message__form-input-field {
+  width: calc(50% - 0.5rem);
+  margin-bottom: 1em;
+}
+
+.contacts-message__form-input-field label {
+  display: block;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  letter-spacing: 0.2em;
+  line-height: 1.5em;
+}
+
+.contacts-message__form-input-field input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 1em;
+  outline: none;
+  border: 1px solid var(--contacts-message__form-input-field-border-color);
+  border-radius: 0.5em;
+  color: var(--contacts-message__form-input-field-text-color);
+  background: var(--contacts-message__form-input-field-bg-color);
+  line-height: 3em;
+}
+
+.contacts-message__form-textarea {
+  width: 100%;
+  margin: 1em 0;
+}
+
+.contacts-message__form-textarea label {
+  display: block;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  letter-spacing: 0.2em;
+  line-height: 1.5em;
+}
+
+.contacts-message__form-textarea-field {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  resize: none;
+  padding: 1em 0 0 1em;
+  outline: none;
+  border: 1px solid var(--contacts-message__form-textarea-field-border-color);
+  border-radius: 0.5em;
+  color: var(--contacts-message__form-textarea-field-text-color);
+  background: var(--contacts-message__form-textarea-field-bg-color);
+}
+
+.contacts-button-layout {
+  margin: 1em 0;
+}
+
+.contacts-button:hover {
+  transform: none;
+}
+
+.contacts-address {
+  display: flex;
+  flex-direction: column;
+  width: calc(50% - 1em);
+  box-sizing: border-box;
+  padding: 0 2em 0 10em;
+}
+
+.contacts-address-item:first-child {
+  margin: 0;
+}
+
+.contacts-address__social {
+  margin-top: 5em;
+}
+
+.contacts-address__social-item {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0.25em;
+}
+
+.contacts-address__social-item-img {
+  width: 2em;
+  height: 2em;
+}
+
+.contacts-address__headline {
+  width: max-content;
+  width: -moz-max-content;
+  margin: 4em 0 2em;
+  border-bottom: 1px solid var(--contacts-address__headline-border-color);
+}
+
+@media (max-width: 65em) {
+  .contacts-message__form-input-field {
+    width: 100%;
+  }
+}
