@@ -16,7 +16,7 @@
   --contacts-address__headline-border-color: var(--signal-black);
 }
 
-.contacts-layout {
+.contacts-form-layout {
   display: flex;
   width: 100%;
   border: 1px solid var(--contacts-layout-border-color);

@@ -1,0 +1,8 @@
+@import "./../root.css";
+@import "./../components/loft-button.css";
+@import "./../components/loft-contact-form.css";
+
+.contacts-layout {
+  width: 90%;
+  margin: 5em auto;
+}
