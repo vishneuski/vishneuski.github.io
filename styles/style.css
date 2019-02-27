@@ -1,15 +1,160 @@
+@import "./root.css";
+@import "./components/loft-button.css";
+@import "./components/loft-burger.css";
+@import "./components/loft-contact-form.css";
+@import "./components/loft-navigation.css";
+
 :root {
-  --white: #FFFFFF;
-  --wheat: #F2E6B6;
-  --cofee: #412A22;
-  --cadet-blue: #8F9E8B;
-  --steel-blue: #5B7876;
-  --signal-black: #292929;
+  --loft-navigation__link-text-color: var(--white);
+  --loft-burger__icon-item-bg-color: var(--white);
+  --loft-burger__checkbox-checked-bg-color: var(--signal-black);
+  --loft-main-image-bg-color: var(--signal-black);
 }
 
-body {
+
+/*--------HEADER-------*/
+.loft-header {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 8em;
   margin: 0;
   padding: 0;
   font-size: 1rem;
-  font-family: "Helvetica", Verdana sans-serif;
 }
+
+.loft-header-layout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.loft-logo {
+  width: 8em;
+  height: 8em;
+  cursor: pointer;
+}
+
+.loft-navigation__link {
+  color: var(--loft-navigation__link-text-color);
+}
+
+.loft-burger {
+  position: absolute;
+}
+
+.loft-burger__icon-item {
+  background: var(--loft-burger__icon-item-bg-color);
+}
+
+.loft-burger__checkbox:checked ~ .loft-burger__icon .loft-burger__icon-item {
+  background: var(--loft-burger__checkbox-checked-bg-color);
+}
+
+
+/*------MAIN-------*/
+.loft-main-layout {
+  width: 100%;
+}
+
+.loft-main__image {
+  height: 50em;
+  background: var(--loft-main-image-bg-color) url("./../images/loft-background/loft-background.jpg") no-repeat local top left;
+  background-size: cover;
+}
+
+.loft-main__content-layout {
+  width: 90%;
+  margin: 2em auto;
+  line-height: 2em;
+}
+
+/*-----PARALLAX-------*/
+
+.parallax_container {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  height: 30em;
+}
+
+.parallax-image {
+  height: 100%;
+  width: 50%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-image1 {
+  background-image: url("./../images/parallax-images/loft-bg-2.jpg");
+  background-position: center;
+  opacity: 0.9;
+
+}
+
+.parallax-image2 {
+  background-image: url("./../images/parallax-images/loft-bg-1.jpg");
+  background-position: center left;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.parallax-image3 {
+  background-image: url("./../images/parallax-images/loft-bg-3.jpg");
+  background-position: center;
+  opacity: 0.9;
+
+}
+
+.parallax-text {
+  box-sizing: border-box;
+  height: 100%;
+  width: 50%;
+  line-height: 2em;
+  padding: 1em;
+}
+
+.parallax-between {
+  width: 90%;
+  line-height: 2em;
+  margin: 2em auto;
+}
+
+
+
+
+/*------@MEDIA-------*/
+@media (max-width: 65em) {
+  .contact-message__form-input-field {
+    width: 100%;
+  }
+}
+
+@media (max-width: 48.5em) {
+  .navigation {
+    display: none;
+  }
+}
+
+@media (min-width: 48.5em) and (max-width: 300em) {
+  .loft-burger__icon {
+    display: none;
+  }
+
+  .loft-burger__hidden-menu {
+    display: none;
+  }
+
+  .loft-navigation__links-group {
+    display: flex;
+  }
+}
+
+
