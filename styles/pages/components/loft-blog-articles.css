@@ -1,0 +1,87 @@
+@import url("./../../../styles/root.css");
+@import url("./../../../styles/pages/components/loft-button.css");
+
+.post-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid #292929;
+}
+
+.post {
+  width: 80%;
+  margin: 2em auto;
+  color: #292929;
+}
+
+.post-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2em 3em;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+
+.title {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.title h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  margin-bottom: 2em;
+  font-weight: 800;
+}
+
+.meta {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.published {
+  white-space: nowrap;
+}
+
+.author {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #292929;
+  padding-left: 2em;
+}
+
+.author-photo {
+  height: 3em;
+  width: 3em;
+  border-radius: 1.5em;
+}
+
+.author-name {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+  margin: 0 0 0 1em;
+  border-bottom: 1px dotted #292929;
+}
+
+.post-image-item {
+  display: block;
+  width: 100%;
+  transition: .3s ease-in;
+}
+
+.post-description {
+  margin: 2em auto;
+}
+
+.continue-reading-button {
+  background: white;
+  color: #292929;
+  border: 1px solid #292929;
+  font-size: 0.75em;
+}

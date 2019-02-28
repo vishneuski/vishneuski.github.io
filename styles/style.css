@@ -1,8 +1,8 @@
 @import "./root.css";
-@import "./components/loft-button.css";
-@import "./components/loft-burger.css";
-@import "./components/loft-contact-form.css";
-@import "./components/loft-navigation.css";
+@import "pages/components/loft-button.css";
+@import "pages/components/loft-burger.css";
+@import "pages/components/loft-contact-form.css";
+@import "pages/components/loft-navigation.css";
 
 :root {
   --loft-navigation__link-text-color: var(--white);
@@ -156,5 +156,3 @@
     display: flex;
   }
 }
-
-

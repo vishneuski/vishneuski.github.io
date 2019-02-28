@@ -1,0 +1,18 @@
+@import url("./../../styles/root.css");
+@import url("./../../styles/pages/components/loft-button.css");
+@import url("./../../styles/pages/components/loft-navigation.css");
+@import url("./../../styles/pages/components/loft-blog-articles.css");
+
+
+.post-layout {
+  display: flex;
+  width: 95%;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.post-layout-item {
+  width: 90%;
+}
+

@@ -1,5 +1,5 @@
-@import url(./../root.css);
-@import url(./loft-button.css);
+@import url(../../root.css);
+@import url(loft-button.css);
 
 :root {
   --button-contacts-bg-color: var(--signal-black);
