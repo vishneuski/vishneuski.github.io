@@ -1,0 +1,19 @@
+@import "./../pages/components/loft-navigation.css";
+
+.photo {
+  width: 95%;
+  margin: 1em auto;
+
+  &-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    align-content: space-between;
+
+    &__image {
+      max-width: calc(50% - 1em);
+      margin-top: 1em;
+    }
+  }
+}

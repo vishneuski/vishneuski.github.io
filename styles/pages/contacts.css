@@ -1,5 +1,6 @@
 @import "./../root.css";
 @import "components/loft-button.css";
+@import "components/loft-navigation.css";
 @import "components/loft-contact-form.css";
 
 .contacts-layout {
