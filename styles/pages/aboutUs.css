@@ -1,0 +1,26 @@
+@import "../pages/components/loft-navigation.css";
+.aboutUs-layout {
+  width: 95%;
+  margin: 2em auto;
+}
+.aboutUs {
+  display: flex;
+  flex-direction: column;
+}
+.aboutUs-item {
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #292929;
+  padding: 1em;
+}
+.aboutUs-item-img {
+  width: 10em;
+  height: 10em;
+  vertical-align: center;
+}
+.aboutUs-item-content {
+  margin-left: 5em;
+  line-height: 2em;
+}
