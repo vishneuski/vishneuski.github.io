@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>loft-footer</title>
+    <link rel="stylesheet" type="text/css" href="../../styles/pages/components/loft-footer.css"/>
+  </head>
+  <body>
+    <section class="footer">
+      <div class="loft-footer">
+        <div class="social-media">
+          <a class="social-media-item" href="#">
+            <img class="social-media-item-img"
+                 src="./../../images/social-icons/instagram-icon.png" alt="instagram">
+          </a>
+          <a class="social-media-item" href="https://www.pinterest.com/vishneuski87/">
+            <img class="social-media-item-img"
+                 src="./../../images/social-icons/pinterest-icon.png" alt="pinterest">
+          </a>
+          <a class="social-media-item" href="#">
+            <img class="social-media-item-img"
+                 src="./../../images/social-icons/youtube-icon.png" alt="youtube">
+          </a>
+          <a class="social-media-item" href="#">
+            <img class="social-media-item-img"
+                 src="./../../images/social-icons/twitter-icon.png" alt=twitter">
+          </a>
+          <a class="social-media-item" href="#">
+            <img class="social-media-item-img"
+                 src="./../../images/social-icons/facebook-icon.png" alt="facebook">
+          </a>
+        </div>
+        <div id="letter-icon">
+          <img class="letter-icon-img" src="./../../images/icons/letter.png" alt="letter icon">
+        </div>
+      </div>
+      <div id="send-message">
+        <section class="contacts-message">
+          <form action="" class="contacts-message__form">
+            <div class="contacts-message__form-input">
+              <div class="contacts-message__form-input-field">
+                <label for="name">Имя</label>
+                <input type="text"
+                       id="name"
+                       placeholder="Ваше имя">
+              </div>
+              <div class="contacts-message__form-input-field">
+                <label for="phone">Телефон / email</label>
+                <input type="text"
+                       id="phone"
+                       placeholder="Ваш телефон / e-mail">
+              </div>
+              <div class="contacts-message__form-textarea">
+                <label for="message">Сообщение</label>
+                <textarea name=""
+                          class="contacts-message__form-textarea-field"
+                          id="message"
+                          cols="10"
+                          rows="5">
+              </textarea>
+              </div>
+            </div>
+            <div class="contacts-button-layout">
+              <input type="submit" hidden>
+              <a href="#"
+                 class="button contacts-button"
+                 tabindex="0"
+                 role="button"
+              >Отправить
+              </a>
+            </div>
+          </form>
+        </section>
+      </div>
+      <script src="./../../scripts/loft-letter-send.js"></script>
+    </section>
+  </body>
+</html>

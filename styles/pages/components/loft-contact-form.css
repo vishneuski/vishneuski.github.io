@@ -1,6 +1,7 @@
-@import url(../../root.css);
-@import url(./loft-button.css);
-@import url(./loft-navigation.css);
+@import url("../../root.css");
+@import url("./loft-button.css");
+@import url("./loft-social-media.css");
+@import url("./loft-navigation.css");
 
 :root {
   --button-contacts-bg-color: var(--signal-black);
@@ -116,31 +117,32 @@
   padding: 0 2em 0 10em;
 }
 
-.contacts-address-item:first-child {
-  margin: 0;
-}
-
-.contacts-address__social {
-  margin-top: 5em;
-}
-
-.contacts-address__social-item {
-  display: inline-block;
-  box-sizing: border-box;
-  padding: 0.25em;
-}
-
-.contacts-address__social-item-img {
-  width: 2em;
-  height: 2em;
-}
-
 .contacts-address__headline {
   width: max-content;
   width: -moz-max-content;
   margin: 4em 0 2em;
   border-bottom: 1px solid var(--contacts-address__headline-border-color);
 }
+
+.contacts-address-item:first-child {
+margin: 0;
+}
+
+.contacts-address__social-media {
+margin-top: 5em;
+}
+
+.contacts-address__social-media-item {
+display: inline-block;
+box-sizing: border-box;
+padding: 0.25em;
+}
+
+.contacts-address__social-media-item-img {
+width: 2em;
+height: 2em;
+}
+
 
 @media (max-width: 65em) {
   .contacts-message__form-input-field {

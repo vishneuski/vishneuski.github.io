@@ -1,8 +1,10 @@
-@import "./root.css";
-@import "pages/components/loft-button.css";
-@import "pages/components/loft-burger.css";
-@import "pages/components/loft-contact-form.css";
-@import "pages/components/loft-navigation.css";
+@import url("./root.css");
+@import url("./pages/components/loft-button.css");
+@import url("./pages/components/loft-burger.css");
+@import url("./pages/components/loft-social-media.css");
+@import url("./pages/components/loft-contact-form.css");
+@import url("./pages/components/loft-footer.css");
+@import url("./pages/components/loft-navigation.css");
 
 :root {
   --loft-navigation__link-text-color: var(--white);
@@ -127,7 +129,7 @@
   margin: 2em auto;
 }
 
-
+/*------FOOTER------*/
 
 
 /*------@MEDIA-------*/
