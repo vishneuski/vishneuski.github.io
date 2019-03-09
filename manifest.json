@@ -1,0 +1,32 @@
+{
+  "short_name" : "Loft",
+  "name" : "Loft",
+  "background_color" : "#FFF",
+  "theme_color" : "#CCC",
+  "start_url" : "/index.html",
+  "display" : "standalone",
+  "orientation" : "portrait",
+  "icons": [
+    {
+      "src": "/images/favicon/favicon-16.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    },
+    {
+      "src": "/images/favicon/favicon-32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "/images/favicon/favicon-144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "/images/favicon/favicon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+    ]
+}
+

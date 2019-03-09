@@ -38,8 +38,8 @@
 }
 
 .loft-logo {
-  width: 8em;
-  height: 8em;
+  width: 5em;
+  height: 5em;
   cursor: pointer;
 }
 
@@ -130,7 +130,9 @@
 }
 
 /*------FOOTER------*/
-
+.footer-contact-message {
+  opacity: 0.95;
+}
 
 /*------@MEDIA-------*/
 @media (max-width: 65em) {
