@@ -5,7 +5,6 @@
 
 :root {
   --button-contacts-bg-color: var(--signal-black);
-  --contacts-layout-border-color: var(--signal-black);
   --contacts-message-text-color: var(--white);
   --contacts-message-bg-color: var(--signal-black);
   --contacts-message__headline-border-color: var(--white);
@@ -18,10 +17,15 @@
   --contacts-address__headline-border-color: var(--signal-black);
 }
 
+.contacts-form {
+  width:100%;
+  margin: 0;
+  padding: 0;
+}
+
 .contacts-form-layout {
   display: flex;
   width: 100%;
-  border: 1px solid var(--contacts-layout-border-color);
 }
 
 .contacts-message {
@@ -114,8 +118,10 @@
   flex-direction: column;
   width: calc(50% - 1em);
   box-sizing: border-box;
-  padding: 0 2em 0 10em;
+  padding: 0 2em 0 4em;
 }
+
+
 
 .contacts-address__headline {
   width: max-content;
@@ -125,24 +131,23 @@
 }
 
 .contacts-address-item:first-child {
-margin: 0;
+  margin: 0;
 }
 
 .contacts-address__social-media {
-margin-top: 5em;
+  margin-top: 5em;
 }
 
 .contacts-address__social-media-item {
-display: inline-block;
-box-sizing: border-box;
-padding: 0.25em;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0.25em;
 }
 
 .contacts-address__social-media-item-img {
-width: 2em;
-height: 2em;
+  width: 2em;
+  height: 2em;
 }
-
 
 @media (max-width: 65em) {
   .contacts-message__form-input-field {

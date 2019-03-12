@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
 :root {
   --white: #FFFFFF;
   --wheat: #F2E6B6;
@@ -10,6 +12,5 @@
 body {
   margin: 0;
   padding: 0;
-  font-size: 1rem;
-  font-family: "Helvetica", Verdana sans-serif;
+  font-family: 'Source Sans Pro', Helvetica sans-serif;
 }

@@ -3,8 +3,7 @@
 
 .post-wrapper {
   width: 90%;
-  margin: 0 auto;
-  border: 1px solid #292929;
+  margin: 1em auto;
 }
 
 .post {
@@ -69,8 +68,6 @@
   margin: 0 0 0 1em;
 }
 
-
-
 .post-image-item {
   display: block;
   width: 100%;
@@ -87,7 +84,7 @@
 
 }
 
-.continue-reading-button {
+.blog-button {
   background: white;
   color: #292929;
   border: 1px solid #292929;

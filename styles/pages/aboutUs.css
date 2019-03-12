@@ -6,13 +6,21 @@
 }
 
 .aboutUs-layout {
-  width: 95%;
-  margin: 2em auto;
+  width: 60%;
+  margin: 2em 2em 2em auto;
+  box-sizing: border-box;
 }
+
+.aboutUs-headline {
+  text-align: center;
+  margin: 0;
+}
+
 .aboutUs {
   display: flex;
   flex-direction: column;
 }
+
 .aboutUs-item {
   margin-bottom: 2em;
   display: flex;
@@ -20,13 +28,4 @@
   align-items: center;
   border: 1px solid #292929;
   padding: 1em;
-}
-.aboutUs-item-img {
-  width: 10em;
-  height: 10em;
-  vertical-align: center;
-}
-.aboutUs-item-content {
-  margin-left: 5em;
-  line-height: 2em;
 }

@@ -6,53 +6,50 @@
     <link rel="stylesheet" href="./../styles/pages/aboutUs.css">
   </head>
   <body>
-    <nav class="navigation">
-      <ul class="navigation__links-group">
-        <li class="navigation__links-group-item">
-          <a class="navigation__link" href="./../index.html">Главная</a>
-        </li>
-        <li class="navigation__links-group-item">
-          <a class="navigation__link" href="./aboutUs.html">О нас</a>
-        </li>
-        <li class="navigation__links-group-item">
-          <a class="navigation__link" href="./gallery.html">Галерея</a>
-        </li>
-        <li class="navigation__links-group-item">
-          <a class="navigation__link" href="./blog.html">Блог</a>
-        </li>
-        <li class="navigation__links-group-item">
-          <a class="navigation__link" href="./contacts.html">Контакты</a>
-        </li>
-      </ul>
-    </nav>
+    <div class="navigation-layout">
+      <nav class="navigation">
+        <ul class="navigation__links-group">
+          <li class="navigation__links-group-item">
+            <a class="navigation__link" href="./../index.html">Главная</a>
+          </li>
+          <li class="navigation__links-group-item">
+            <a class="navigation__link" href="./aboutUs.html">О нас</a>
+          </li>
+          <li class="navigation__links-group-item">
+            <a class="navigation__link" href="./gallery.html">Галерея</a>
+          </li>
+          <li class="navigation__links-group-item">
+            <a class="navigation__link" href="./blog.html">Наш блог</a>
+          </li>
+          <li class="navigation__links-group-item">
+            <a class="navigation__link" href="./contacts.html">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="burger-icon" id="burger" role="navigation">
+      <span class="burger-icon-item"></span>
+      <span class="burger-icon-item"></span>
+      <span class="burger-icon-item"></span>
+    </div>
     <div class="aboutUs-layout">
       <section class="aboutUs">
-        <h1>Отличительные особенности нашей мебели</h1>
-        <div class="aboutUs-item">
-          <img class="aboutUs-item-img" src="./../images/aboutUs-icon/green.png" alt="">
-          <div class="aboutUs-item-content">
-            Э - Экологичность.<br>Этот бобёр опять грызет ножку нашего стола!
-          </div>
-        </div>
-        <div class="aboutUs-item">
-          <img class="aboutUs-item-img" src="./../images/aboutUs-icon/unic.png" alt="">
-          <div class="aboutUs-item-content">
-            У - Уникальность.<br>Что это вообще такое?!
-          </div>
-        </div>
-        <div class="aboutUs-item">
-          <img class="aboutUs-item-img" src="./../images/aboutUs-icon/infinity.png" alt="">
-          <div class="aboutUs-item-content">
-            Д - Долговечность.<br>Откуда этот стул, мама? Это нашему дедушке досталось от его дедушки.
-          </div>
-        </div>
-        <div class="aboutUs-item">
-          <img class="aboutUs-item-img" src="./../images/aboutUs-icon/power.png" alt="">
-          <div class="aboutUs-item-content">
-            П - Прочность.<br>Да! Прям на нем и руби мясо, ничего с ним не случится!
-          </div>
-        </div>
+        <h1 class="aboutUs-headline">Кто мы?</h1>
+        <p>Мы - группа единомышленников, делающих мебель, которую Вы вряд ли встретите в (беларуском) магазине. Мы
+          любим делать это и мы делаем это с душой. Вы можете спросить: "А чем же Ваша мебель отличается от остальной
+          мебели?!" И тут Мы можем рассказать Вам об алфавите нашей мебели. Нет-нет, Вы не ослышались - об
+          Алфавите)))</p>
+        <h3>Д - Долговечность</h3>
+        <p>- Мама, а откуда у нас этот стул?<br>- Этот стул, сынок, нашему Дедушке достался от его Дедушки.</p>
+        <h3>П - Прочность</h3>
+        <p>- Да-да!! Прямо на этом столе можешь рубить мясо топором, ничего со столом не случится!</p>
+        <h3>У - Уникальность</h3>
+        <p>- Да что это вообще такое??!!</p>
+        <h3>Э - Экологичность</h3>
+        <p>- Как же надоел этот бобёр!! Пятый раз он начинает грызть ножку нашего стола!!</p>
       </section>
     </div>
+    <script src="./../scripts/lib/jquery-3.2.1.js"></script>
+    <script src="./../scripts/burger.js"></script>
   </body>
 </html>

@@ -1,6 +1,5 @@
 @import url("./root.css");
 @import url("./pages/components/loft-button.css");
-@import url("./pages/components/loft-burger.css");
 @import url("./pages/components/loft-social-media.css");
 @import url("./pages/components/loft-contact-form.css");
 @import url("./pages/components/loft-footer.css");
@@ -8,16 +7,16 @@
 
 :root {
   --loft-navigation__link-text-color: var(--white);
-  --loft-burger__icon-item-bg-color: var(--white);
-  --loft-burger__checkbox-checked-bg-color: var(--signal-black);
+  --loft-burger-icon-item-bg-color: var(--white);
   --loft-main-image-bg-color: var(--signal-black);
+  --loft-navigation__link-hover-text-color: var(--signal-black);
+  --loft-navigation__link-hover-bg-color: var(--steel-blue);
+  --loft-navigation__link-active-text-color: var(--white);
 }
-
 
 /*--------HEADER-------*/
 .loft-header {
   position: absolute;
-  z-index: 1;
   top: 0;
   left: 0;
   box-sizing: border-box;
@@ -25,21 +24,15 @@
   height: 8em;
   margin: 0;
   padding: 0;
-  font-size: 1rem;
-}
-
-.loft-header-layout {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 95%;
-  height: 100%;
-  margin: 0 auto;
 }
 
 .loft-logo {
+  position: fixed;
+  top: 2em;
+  right: 5em;
   width: 5em;
   height: 5em;
+  transform: rotate(-7deg);
   cursor: pointer;
 }
 
@@ -47,18 +40,22 @@
   color: var(--loft-navigation__link-text-color);
 }
 
-.loft-burger {
-  position: absolute;
+.loft-navigation__link:hover {
+  color: var(--loft-navigation__link-hover-text-color);
+  background: var(--loft-navigation__link-hover-bg-color);
 }
 
-.loft-burger__icon-item {
-  background: var(--loft-burger__icon-item-bg-color);
+.loft-navigation__link:active {
+  color: var(--loft-navigation__link-active-text-color);
 }
 
-.loft-burger__checkbox:checked ~ .loft-burger__icon .loft-burger__icon-item {
-  background: var(--loft-burger__checkbox-checked-bg-color);
-}
+/*.burger-icon {*/
+  /*display: none;*/
+/*}*/
 
+.burger-icon-item {
+  background: var(--loft-burger-icon-item-bg-color);
+}
 
 /*------MAIN-------*/
 .loft-main-layout {
@@ -133,29 +130,7 @@
 
 
 
-/*------@MEDIA-------*/
-@media (max-width: 65em) {
-  .contact-message__form-input-field {
-    width: 100%;
-  }
-}
 
-@media (max-width: 48.5em) {
-  .navigation {
-    display: none;
-  }
-}
+/*------MEDIA-------*/
 
-@media (min-width: 48.5em) and (max-width: 300em) {
-  .loft-burger__icon {
-    display: none;
-  }
 
-  .loft-burger__hidden-menu {
-    display: none;
-  }
-
-  .loft-navigation__links-group {
-    display: flex;
-  }
-}

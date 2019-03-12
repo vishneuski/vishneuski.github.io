@@ -1,29 +1,38 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <title>loft-navigation</title>
-  <link rel="stylesheet" href="../../styles/pages/components/loft-navigation.css">
-</head>
-<body>
-  <nav class="navigation">
-    <ul class="navigation__links-group">
-      <li class="navigation__links-group-item">
-        <a class="navigation__link" href="#">Главная</a>
-      </li>
-      <li class="navigation__links-group-item">
-        <a class="navigation__link" href="#">О нас</a>
-      </li>
-      <li class="navigation__links-group-item">
-        <a class="navigation__link" href="#">Галерея</a>
-      </li>
-      <li class="navigation__links-group-item">
-        <a class="navigation__link" href="#">Блог</a>
-      </li>
-      <li class="navigation__links-group-item">
-        <a class="navigation__link" href="#">Контакты</a>
-      </li>
-    </ul>
-  </nav>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>loft-navigation</title>
+    <link rel="stylesheet" href="../../styles/pages/components/loft-navigation.css">
+  </head>
+  <body>
+    <div class="navigation-layout">
+      <nav class="navigation">
+        <ul class="navigation__links-group">
+          <li class="navigation__links-group-item">
+            <a class="navigation__link" href="#">Главная</a>
+          </li>
+          <li class="navigation__links-group-item">
+            <a class="navigation__link" href="#">О нас</a>
+          </li>
+          <li class="navigation__links-group-item">
+            <a class="navigation__link" href="#">Галерея</a>
+          </li>
+          <li class="navigation__links-group-item">
+            <a class="navigation__link" href="#">Наш блог</a>
+          </li>
+          <li class="navigation__links-group-item">
+            <a class="navigation__link" href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div id="burger" class="burger-icon" role="navigation">
+      <span class="burger-icon-item"></span>
+      <span class="burger-icon-item"></span>
+      <span class="burger-icon-item"></span>
+    </div>
+    <script src="./../../scripts/lib/jquery-3.2.1.js"></script>
+    <script src="./../../scripts/burger.js"></script>
+  </body>
 </html>

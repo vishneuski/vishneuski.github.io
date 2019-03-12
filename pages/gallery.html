@@ -8,25 +8,32 @@
 
   </head>
   <body>
-    <nav class="navigation">
-      <ul class="navigation__links-group">
-        <li class="navigation__links-group-item">
-          <a class="navigation__link" href="./../index.html">Главная</a>
-        </li>
-        <li class="navigation__links-group-item">
-          <a class="navigation__link" href="./aboutUs.html">О нас</a>
-        </li>
-        <li class="navigation__links-group-item">
-          <a class="navigation__link" href="#">Галерея</a>
-        </li>
-        <li class="navigation__links-group-item">
-          <a class="navigation__link" href="./blog.html">Блог</a>
-        </li>
-        <li class="navigation__links-group-item">
-          <a class="navigation__link" href="./contacts.html">Контакты</a>
-        </li>
-      </ul>
-    </nav>
+    <div class="navigation-layout">
+      <nav class="navigation">
+        <ul class="navigation__links-group">
+          <li class="navigation__links-group-item">
+            <a class="navigation__link" href="./../index.html">Главная</a>
+          </li>
+          <li class="navigation__links-group-item">
+            <a class="navigation__link" href="./aboutUs.html">О нас</a>
+          </li>
+          <li class="navigation__links-group-item">
+            <a class="navigation__link" href="#">Галерея</a>
+          </li>
+          <li class="navigation__links-group-item">
+            <a class="navigation__link" href="./blog.html">Блог</a>
+          </li>
+          <li class="navigation__links-group-item">
+            <a class="navigation__link" href="./contacts.html">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div id="burger" class="burger-icon" role="navigation">
+      <span class="burger-icon-item"></span>
+      <span class="burger-icon-item"></span>
+      <span class="burger-icon-item"></span>
+    </div>
     <div class="photo">
       <section class="photo-gallery">
         <img class="photo-gallery__image" src="./../images/gallery-img/gallery1.jpg" alt="">
@@ -39,6 +46,7 @@
         <img class="photo-gallery__image" src="./../images/gallery-img/gallery8.jpg" alt="">
       </section>
     </div>
-    <script src="./../scripts/loft-gallery-slider.js"></script>
+    <script src="./../scripts/lib/jquery-3.2.1.js"></script>
+    <script src="./../scripts/burger.js"></script>
   </body>
 </html>

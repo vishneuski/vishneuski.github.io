@@ -4,3 +4,8 @@ $(document).ready(function(){
     $('.burger-icon-item').toggleClass('rotate');
   })
 });
+
+
+// $(window).resize(function () {
+//   $('.navigation.active').css('background', 'none');
+// });

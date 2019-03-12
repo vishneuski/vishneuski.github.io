@@ -4,6 +4,14 @@
 @import url("./components/loft-navigation.css");
 @import url("./components/loft-contact-form.css");
 
+:root{
+
+}
+
 .contacts-layout {
+  width: 100%;
+}
+
+.navigation-layout {
   width: 100%;
 }

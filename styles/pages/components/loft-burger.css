@@ -34,11 +34,11 @@
 }
 
 .burger-icon-item:nth-child(2).rotate {
-  opacity: 0;
   transform: translateX(0.5em);
+  opacity: 0;
 }
 
 .burger-icon-item:nth-child(3).rotate {
-  transform: rotate(45deg);
   transform-origin: bottom right;
+  transform: rotate(45deg);
 }
