@@ -1,82 +1,44 @@
 @import url("../../root.css");
 
 :root {
-  --burger__icon-item-bg-color: var(--signal-black);
-  --burger__icon-item-content-color: var(--white);
-  --burger__hidden-menu-bg-color: var(--white);
-  --burger__hidden-menu-link-text-color: var(--signal-black);
+  --burger-icon-item-bg-color: var(--signal-black);
+  --burger-icon-item-content-color: var(--white);
 }
 
-.burger__checkbox {
-  display: none;
-}
-
-.burger__icon {
+.burger-icon {
   position: fixed;
-  top: 3em;
-  right: 3em;
-  z-index: 1;
+  top: 2em;
+  left: 2em;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   width: 2em;
   height: 2em;
   cursor: pointer;
+  transition: .5s;
 }
 
-.burger__icon-item {
+.burger-icon-item {
   width: 100%;
   height: 0.25em;
-  border-radius: 0.1em;
-  background: var(--burger__icon-item-bg-color);
-  color: var(--burger__icon-item-content-color);
-  transition: 0.3s ease-in-out;
+  background: var(--burger-icon-item-bg-color);
+  color: var(--burger-icon-item-content-color);
+  border-radius: 0.5em;
+  transition: .5s ease-in-out;
 }
 
-.burger__hidden-menu {
-  position: fixed;
-  top: 0;
-  right: -12em;
-  width: 12em;
-  height: 100%;
-  background: var(--burger__hidden-menu-bg-color);
-  transition: all 0.5s ease-in-out;
-  opacity: 0.8;
-}
-
-.burger__hidden-menu-links-group {
-  box-sizing: border-box;
-  padding-top: 5em;
-  list-style: none;
-}
-
-.burger__hidden-menu-links-group-item {
-  padding-bottom: 1em;
-}
-
-.burger__hidden-menu-link {
-  color: var(--burger__hidden-menu-link-text-color);
-  font-size: 1.25em;
-  font-weight: 400;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.burger__checkbox:checked ~ .burger__hidden-menu {
-  right: 0;
-  top: 0;
-}
-
-.burger__checkbox:checked ~ .burger__icon .burger__icon-item:nth-child(1) {
-  transform: rotate(-45deg);
+.burger-icon-item:nth-child(1).rotate {
   transform-origin: top right;
+  transform: rotate(-45deg);
+
 }
 
-.burger__checkbox:checked ~ .burger__icon .burger__icon-item:nth-child(2) {
+.burger-icon-item:nth-child(2).rotate {
   opacity: 0;
+  transform: translateX(0.5em);
 }
 
-.burger__checkbox:checked ~ .burger__icon .burger__icon-item:nth-child(3) {
+.burger-icon-item:nth-child(3).rotate {
   transform: rotate(45deg);
   transform-origin: bottom right;
 }

@@ -21,11 +21,16 @@
   width: 100%;
 }
 
-#send-message {
+.message {
   position: absolute;
   right: 2em;
   bottom: 6em;
   display: none;
+}
+
+.message.visible {
+  display: block;
+  opacity: 0.95;
 }
 
 .contacts-message {

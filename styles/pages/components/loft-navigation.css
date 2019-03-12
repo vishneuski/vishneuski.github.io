@@ -4,7 +4,7 @@
   --navigation__link-text-color: var(--signal-black);
   --navigation__link-hover-text-color: var(--cadet-blue);
   --navigation__link-focus-text-color: var(--cadet-blue);
-  --navigation__link-before-bg-color: var(--cadet-blue);
+  --navigation__link-before-bg-color: var(--white);
 }
 
 .navigation__links-group {
