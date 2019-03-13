@@ -32,7 +32,7 @@
   opacity: 0;
 }
 
-.slider__list-item.active {
+.slider__list-item.visible {
   opacity: 1;
 }
 
@@ -55,11 +55,18 @@ background-image: url(../../../images/gallery-slider-img/gallery-5.jpg);
   position: absolute;
   width: 5em;
   height: 2em;
-  top: calc(49%);
 }
 .slider__button-prev {
-  left: -6em;
+  top: 6em;
+  right: -6em;
 }
 .slider__button-next {
+  top: 10em;
   right: -6em;
+}
+
+.slider__button-slide-show {
+  top: 15em;
+  right: -6em;
+
 }

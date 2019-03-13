@@ -49,10 +49,6 @@
   color: var(--loft-navigation__link-active-text-color);
 }
 
-/*.burger-icon {*/
-  /*display: none;*/
-/*}*/
-
 .burger-icon-item {
   background: var(--loft-burger-icon-item-bg-color);
 }

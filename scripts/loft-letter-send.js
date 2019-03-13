@@ -1,5 +1,5 @@
 $(document).ready(function(){
   $('#letter-icon').click(function(){
-    $('.message').toggleClass('visible');
+    $('.message').toggleClass('show');
   })
 });

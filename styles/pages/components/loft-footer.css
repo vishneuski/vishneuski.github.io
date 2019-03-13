@@ -28,7 +28,7 @@
   display: none;
 }
 
-.message.visible {
+.message.show {
   display: block;
   opacity: 0.95;
 }
