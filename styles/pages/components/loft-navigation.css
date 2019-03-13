@@ -7,15 +7,29 @@
   --burger-icon-item-bg-color: var(--signal-black);
   --burger-icon-item-content-color: var(--white);
   --navigation__link-hover-bg-color: var(--signal-black);
-  --navigation-active-bg-color: var(--cadet-blue);
+  --navigation-active-bg-color: var(--cofee);
+  --navigation-layout-sticky-bg-color: var(--cofee);
 }
 
 .navigation-layout {
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   width: 100%;
   height: 6em;
+  transition: background 0.3s ease-out;
 }
+
+.navigation-layout.sticky {
+  z-index: 2;
+  background: var(--navigation-layout-sticky-bg-color);
+  transition: background 0.3s ease-out;
+  opacity: 0.95;
+}
+
 
 .navigation__links-group {
   display: flex;
@@ -42,6 +56,10 @@
   border-radius: 1.2em;
 }
 
+.navigation__link.recolored {
+  color: white;
+}
+
 .navigation__link:hover {
   color: var(--navigation__link-hover-text-color);
   background: var(--navigation__link-hover-bg-color);
@@ -62,7 +80,7 @@
   width: 100%;
   transition: .5s;
   background: var(--navigation-active-bg-color);
-  opacity: 0.9;
+  opacity: 0.98;
 }
 
 .burger-icon.visible {
@@ -82,6 +100,11 @@
   transition: .5s ease-in-out;
 }
 
+.burger-icon-item.recolored {
+  color: white;
+  background: #fff;
+}
+
 .burger-icon-item:nth-child(1).rotate {
   transform-origin: top right;
   transform: rotate(-45deg);
@@ -95,6 +118,10 @@
 .burger-icon-item:nth-child(3).rotate {
   transform-origin: bottom right;
   transform: rotate(45deg);
+}
+
+.example {
+  margin-top: 6em;
 }
 
 @media (max-width: 50em) {

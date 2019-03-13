@@ -21,6 +21,16 @@ $(document).ready(function(){
       $('.loft-logo').removeClass('sticky');
     }
   });
+
+  $(window).scroll(function () {
+    if($(document).scrollTop() > 100) {
+      $('.navigation-layout').addClass('sticky');
+      $('.burger-icon-item, .navigation__link').addClass('recolored');
+    } else {
+      $('.navigation-layout').removeClass('sticky');
+      $('.burger-icon-item, .navigation__link').removeClass('recolored');
+    }
+  });
 });
 
 
