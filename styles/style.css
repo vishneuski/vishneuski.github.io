@@ -6,34 +6,54 @@
 @import url("./pages/components/loft-navigation.css");
 
 :root {
-  --loft-navigation__link-text-color: var(--white);
-  --loft-burger-icon-item-bg-color: var(--white);
+  --loft-navigation__link-text-color: var(--linen);
+  --loft-burger-icon-item-bg-color: var(--linen);
   --loft-main-image-bg-color: var(--signal-black);
   --loft-navigation__link-hover-text-color: var(--signal-black);
   --loft-navigation__link-hover-bg-color: var(--steel-blue);
-  --loft-navigation__link-active-text-color: var(--white);
+  --loft-navigation__link-active-text-color: var(--linen);
+  --loft-header-sticky-bg-color: var(--signal-black);
+  --loft-main-layout-bg-color: var(--linen);
 }
 
 /*--------HEADER-------*/
 .loft-header {
-  position: absolute;
+  /*position: absolute;*/
+  position: fixed;
   top: 0;
   left: 0;
   box-sizing: border-box;
   width: 100%;
-  height: 8em;
+  height: 6em;
   margin: 0;
   padding: 0;
+  transition: background 0.3s ease-out;
+}
+
+.loft-header.sticky {
+  z-index: 2;
+  background: var(--loft-header-sticky-bg-color);
+  transition: background 0.3s ease-out;
+  opacity: 0.95;
 }
 
 .loft-logo {
   position: fixed;
   top: 2em;
-  right: 5em;
-  width: 5em;
-  height: 5em;
-  transform: rotate(-7deg);
+  right: 8em;
+  width: 4.5em;
+  height: 4.5em;
   cursor: pointer;
+  transition: all .5s ease-in-out;
+}
+
+.loft-logo.sticky {
+  position: fixed;
+  top: 0.8em;
+  right: 11em;
+  width: 4em;
+  height: 4em;
+  transition: all .5s ease-out;
 }
 
 .loft-navigation__link {
@@ -56,6 +76,7 @@
 /*------MAIN-------*/
 .loft-main-layout {
   width: 100%;
+  background: var(--loft-main-layout-bg-color);
 }
 
 .loft-main__image {
@@ -105,7 +126,7 @@
   background-image: url("./../images/parallax-images/loft-bg-3.jpg");
   background-position: center;
   opacity: 0.9;
-
+  box-sizing: border-box;
 }
 
 .parallax-text {
@@ -119,8 +140,17 @@
 .parallax-between {
   width: 90%;
   line-height: 2em;
-  margin: 2em auto;
+  margin: 1em auto;
+  box-sizing: border-box;
 }
+
+.parallax-between-last {
+  box-sizing: border-box;
+  margin-bottom: 0;
+  padding-bottom: 2em;
+}
+
+
 
 /*------FOOTER------*/
 

@@ -5,15 +5,22 @@ $(document).ready(function(){
   });
 
   $(window).scroll(function () {
-      if($(document).scrollTop() > 300){
+      if($(document).scrollTop() > 100){
         $('.navigation').removeClass('active');
         $('.burger-icon-item').removeClass('rotate');
       }
   });
 
-  // $(window).resize(function () {
-  //   $('.navigation.active').css('background', 'none');
-  // });
+  $(window).scroll(function () {
+    if($(document).scrollTop() > 100) {
+      $('.loft-header').addClass('sticky');
+      $('.loft-logo').addClass('sticky');
+
+    } else {
+      $('.loft-header').removeClass('sticky');
+      $('.loft-logo').removeClass('sticky');
+    }
+  });
 });
 
 
