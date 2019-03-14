@@ -1,4 +1,7 @@
-@import "../pages/components/loft-navigation.css";
+@import "./../pages/components/loft-navigation.css";
+@import "./../pages/components/loft-burger.css";
+@import "./../pages/components/loft-footer.css";
+
 .photo {
   width: 95%;
   margin: 1em auto;
@@ -14,4 +17,10 @@
 .photo-gallery__image {
   max-width: calc(50% - 1em);
   margin-top: 1em;
+}
+
+@media (max-width: 35em) {
+  .social-media {
+    display: none;
+  }
 }

@@ -116,20 +116,45 @@
   transform: rotate(45deg);
 }
 
-.logo{
+
+
+
+.loft-logo {
   position: fixed;
-  top: 0;
-  right: 4em;
-  width: 4em;
-  display: inline-block;
-  height: 3em;
-  margin: 0;
-  font-size: 2em;
-  line-height: 3em;
-  text-align: center;
-  color: var(--logo-text-color);
-  white-space: nowrap;
+  top: 1.4em;
+  right: 8em;
+  width: 3.5em;
+  height: 3.5em;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
 }
+
+.loft-logo.sticky {
+  position: fixed;
+  top: 1em;
+  right: 11em;
+  width: 3.5em;
+  height: 3.5em;
+  transition: all .5s ease-out;
+}
+
+/*.logo{*/
+  /*position: fixed;*/
+  /*top: 0;*/
+  /*right: 3em;*/
+  /*width: 4em;*/
+  /*display: inline-block;*/
+  /*height: 3em;*/
+  /*margin: 0;*/
+  /*font-size: 2em;*/
+  /*line-height: 3em;*/
+  /*text-align: center;*/
+  /*color: var(--logo-text-color);*/
+  /*white-space: nowrap;*/
+/*}*/
+
+
+
 
 .example {
   margin-top: 6em;

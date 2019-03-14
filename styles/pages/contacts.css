@@ -2,9 +2,10 @@
 @import url("./components/loft-button.css");
 @import url("./components/loft-social-media.css");
 @import url("./components/loft-navigation.css");
+@import url("./components/loft-footer.css");
 @import url("./components/loft-contact-form.css");
 
-:root{
+:root {
 
 }
 
@@ -13,6 +14,17 @@
   width: 100%;
 }
 
-/*.navigation-layout {*/
-  /*width: 100%;*/
-/*}*/
+.contacts-message {
+  border-radius: 0;
+}
+
+@media (max-width: 35em) {
+
+  .contacts-form-layout {
+    flex-wrap: wrap;
+  }
+
+  .contacts-address, .contacts-message {
+    width: 100%;
+  }
+}
