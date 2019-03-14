@@ -9,6 +9,7 @@
   align-items: flex-start;
   justify-content: space-around;
   align-content: space-between;
+  margin-top: 6em;
 }
 .photo-gallery__image {
   max-width: calc(50% - 1em);

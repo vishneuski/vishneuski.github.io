@@ -8,9 +8,11 @@
   --cadet-blue: #8F9E8B;
   --steel-blue: #5B7876;
   --signal-black: #292929;
+  --body-bg-color: var(--linen);
 }
 
 body {
+  background: var(--body-bg-color);
   margin: 0;
   padding: 0;
   font-family: 'Source Sans Pro', Helvetica sans-serif;

@@ -5,14 +5,14 @@ $(document).ready(function(){
   });
 
   $(window).scroll(function () {
-      if($(document).scrollTop() > 100){
+      if($(document).scrollTop() > 300){
         $('.navigation').removeClass('active');
         $('.burger-icon-item').removeClass('rotate');
       }
   });
 
   $(window).scroll(function () {
-    if($(document).scrollTop() > 100) {
+    if($(document).scrollTop() > 300) {
       $('.loft-header').addClass('sticky');
       $('.loft-logo').addClass('sticky');
 
@@ -23,12 +23,10 @@ $(document).ready(function(){
   });
 
   $(window).scroll(function () {
-    if($(document).scrollTop() > 100) {
+    if($(document).scrollTop() > 300) {
       $('.navigation-layout').addClass('sticky');
-      $('.burger-icon-item, .navigation__link').addClass('recolored');
     } else {
       $('.navigation-layout').removeClass('sticky');
-      $('.burger-icon-item, .navigation__link').removeClass('recolored');
     }
   });
 });
