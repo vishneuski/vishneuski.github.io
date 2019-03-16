@@ -37,22 +37,17 @@
 }
 
 .loft-logo {
-  position: fixed;
   top: 2em;
-  right: 8em;
   width: 4.5em;
   height: 4.5em;
-  cursor: pointer;
-  transition: all .5s ease-in-out;
 }
 
 .loft-logo.sticky {
-  position: fixed;
   top: 0.8em;
-  right: 11em;
   width: 4em;
   height: 4em;
-  transition: all .5s ease-out;
+  z-index: 3;
+
 }
 
 .loft-navigation__link {

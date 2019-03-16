@@ -35,7 +35,6 @@
   opacity: 0.98;
 }
 
-
 .navigation__links-group {
   display: flex;
   list-style: none;
@@ -89,7 +88,7 @@
 }
 
 .burger-icon {
- display: none;
+  display: none;
 }
 
 .burger-icon-item {
@@ -116,10 +115,7 @@
   transform: rotate(45deg);
 }
 
-
-
-
-.loft-logo {
+.logo {
   position: fixed;
   top: 1.4em;
   right: 8em;
@@ -129,7 +125,7 @@
   transition: all .5s ease-in-out;
 }
 
-.loft-logo.sticky {
+.logo.sticky {
   position: fixed;
   top: 1em;
   right: 11em;
@@ -139,22 +135,19 @@
 }
 
 /*.logo{*/
-  /*position: fixed;*/
-  /*top: 0;*/
-  /*right: 3em;*/
-  /*width: 4em;*/
-  /*display: inline-block;*/
-  /*height: 3em;*/
-  /*margin: 0;*/
-  /*font-size: 2em;*/
-  /*line-height: 3em;*/
-  /*text-align: center;*/
-  /*color: var(--logo-text-color);*/
-  /*white-space: nowrap;*/
+/*position: fixed;*/
+/*top: 0;*/
+/*right: 3em;*/
+/*width: 4em;*/
+/*display: inline-block;*/
+/*height: 3em;*/
+/*margin: 0;*/
+/*font-size: 2em;*/
+/*line-height: 3em;*/
+/*text-align: center;*/
+/*color: var(--logo-text-color);*/
+/*white-space: nowrap;*/
 /*}*/
-
-
-
 
 .example {
   margin-top: 6em;
