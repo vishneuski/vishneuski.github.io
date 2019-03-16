@@ -104,19 +104,13 @@
 }
 
 .parallax-image1 {
-  background-image: url("./../images/parallax-images/loft-bg-2.jpg");
+  background-image: url("./../images/parallax-images/parallax1.jpg");
   background-position: center;
 
 }
 
 .parallax-image2 {
-  background-image: url("./../images/parallax-images/loft-bg-1.jpg");
-  background-position: center left;
-  background-size: cover;
-}
-
-.parallax-image3 {
-  background-image: url("./../images/parallax-images/loft-bg-3.jpg");
+  background-image: url("./../images/parallax-images/parallax2.jpg");
   background-position: center;
   box-sizing: border-box;
 }
