@@ -1,7 +1,7 @@
 @import url("./../../../styles/root.css");
 @import url("./../../../styles/pages/components/loft-button.css");
 
-:root{
+:root {
   --post-text-color: var(--signal-black);
   --author-text-color: var(--signal-black);
   --blog-button-text-color: var(--signal-black);
@@ -24,14 +24,14 @@
   align-items: center;
 }
 
-.title {
+.post-header-title {
   text-align: center;
   width: 100%;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
-.title h2 {
-  margin-bottom: 2em;
+.post-header-title-headline {
+  margin-bottom: 1em;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.3em;
@@ -81,6 +81,8 @@
 
 .post-description {
   margin: 2em auto;
+  line-height: 1.75em;
+  text-align: justify;
 }
 
 .post-content {

@@ -114,11 +114,17 @@
   box-sizing: border-box;
 }
 
+.loft-main-content-layout {
+  text-align: justify;
+  line-height: 1.75em;
+}
+
 .parallax-between {
   width: 90%;
-  line-height: 2em;
+  line-height: 1.75em;
   margin: 1em auto;
   box-sizing: border-box;
+  text-align: justify;
 }
 
 .parallax-between-last {
