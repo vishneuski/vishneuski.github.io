@@ -6,7 +6,7 @@
 }
 
 .aboutUs-layout {
-  width: 40%;
+  width: 70%;
   margin: 7em auto 1em;
   box-sizing: border-box;
 }
@@ -24,5 +24,9 @@
 @media (max-width: 35em) {
   .social-media {
     display: none;
+  }
+
+  .aboutUs-layout {
+    width: 90%;
   }
 }
