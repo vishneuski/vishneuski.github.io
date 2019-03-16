@@ -16,6 +16,8 @@
 .aboutUs {
   display: flex;
   flex-direction: column;
+  line-height: 1.75em;
+  text-align: justify;
 }
 
 @media (max-width: 35em) {
