@@ -1,0 +1,17 @@
+{
+  "short_name" : "Loft",
+  "name" : "Loft",
+  "background_color" : "#FFF",
+  "theme_color" : "#CCC",
+  "start_url" : "/index.html",
+  "display" : "standalone",
+  "orientation" : "portrait",
+  "icons" : [
+    {
+      "src": "./images/favicon/favicon-32.png",
+      "type": "image/png",
+      "sizes": "32X32"
+    }
+  ]
+}
+

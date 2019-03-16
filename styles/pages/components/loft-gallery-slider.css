@@ -1,0 +1,66 @@
+.slider {
+  position: relative;
+  top: 2em;
+  right: 0;
+  left: 0;
+  width: 50em;
+  height: 30em;
+  margin: auto;
+  background: #ccc;
+}
+
+.slider-list {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  background: #fff;
+  list-style: none;
+}
+
+.slider-list-item {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0;
+}
+
+.slider-list-item.visible {
+  opacity: 1;
+}
+
+.slider-list-item.slider-item1 {
+background-image: url(../../../images/gallery-slider-img/gallery-1.jpg);
+}
+.slider-list-item.slider-item2 {
+background-image: url(../../../images/gallery-slider-img/gallery-2.jpg);
+}
+.slider-list-item.slider-item3 {
+background-image: url(../../../images/gallery-slider-img/gallery-3.jpg);
+}
+.slider-list-item.slider-item4 {
+background-image: url(../../../images/gallery-slider-img/gallery-4.jpg);
+}
+.slider-list-item.slider-item5 {
+background-image: url(../../../images/gallery-slider-img/gallery-5.jpg);
+}
+.slider-button {
+  position: absolute;
+  width: 5em;
+  height: 2em;
+}
+.slider-button-prev {
+  top: 6em;
+  right: -6em;
+}
+.slider-button-next {
+  top: 10em;
+  right: -6em;
+}

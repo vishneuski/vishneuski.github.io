@@ -1,0 +1,136 @@
+@import url("./root.css");
+@import url("./pages/components/loft-button.css");
+@import url("./pages/components/loft-contact-form.css");
+@import url("./pages/components/loft-footer.css");
+@import url("./pages/components/loft-navigation.css");
+
+:root {
+  --loft-navigation-link-text-color: var(--linen);
+  --loft-burger-icon-item-bg-color: var(--linen);
+  --loft-main-image-bg-color: var(--signal-black);
+  --loft-navigation-link-hover-text-color: var(--signal-black);
+  --loft-navigation-link-hover-bg-color: var(--steel-blue);
+  --loft-navigation-link-active-text-color: var(--linen);
+  --loft-header-sticky-bg-color: var(--signal-black);
+  --loft-main-layout-bg-color: var(--linen);
+}
+
+/*--------HEADER-------*/
+.loft-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 6em;
+  margin: 0;
+  padding: 0;
+  transition: background 0.3s ease-out;
+}
+
+.loft-header.sticky {
+  z-index: 2;
+  background: var(--loft-header-sticky-bg-color);
+  transition: background 0.3s ease-out;
+  opacity: 0.95;
+}
+
+.loft-logo {
+  top: 2em;
+  width: 4.5em;
+  height: 4.5em;
+}
+
+.loft-logo.sticky {
+  top: 0.8em;
+  width: 4em;
+  height: 4em;
+  z-index: 3;
+
+}
+
+.loft-navigation-link {
+  color: var(--loft-navigation-link-text-color);
+}
+
+.loft-navigation-link:hover {
+  color: var(--loft-navigation-link-hover-text-color);
+  background: var(--loft-navigation-link-hover-bg-color);
+}
+
+.loft-navigation-link:active {
+  color: var(--loft-navigation-link-active-text-color);
+}
+
+.burger-icon-item {
+  background: var(--loft-burger-icon-item-bg-color);
+}
+
+/*------MAIN-------*/
+.loft-main-layout {
+  width: 100%;
+  background: var(--loft-main-layout-bg-color);
+}
+
+.loft-main-image {
+  height: 50em;
+  background: var(--loft-main-image-bg-color) url("./../images/loft-background/loft-background.jpg") no-repeat local top left;
+  background-size: cover;
+}
+
+.loft-main-content-layout {
+  width: 90%;
+  margin: 2em auto;
+  line-height: 2em;
+}
+
+/*-----PARALLAX-------*/
+
+.parallax-container {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  height: 20em;
+}
+
+.parallax-image {
+  height: 20em;
+  width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+}
+
+.parallax-image1 {
+  background-image: url("./../images/parallax-images/parallax1.jpg");
+  background-position: center;
+
+}
+
+.parallax-image2 {
+  background-image: url("./../images/parallax-images/parallax2.jpg");
+  background-position: center;
+  box-sizing: border-box;
+}
+
+.parallax-between {
+  width: 90%;
+  line-height: 2em;
+  margin: 1em auto;
+  box-sizing: border-box;
+}
+
+.parallax-between-last {
+  box-sizing: border-box;
+  margin-bottom: 0;
+  padding-bottom: 2em;
+}
+
+/*------MEDIA-------*/
+
+@media (max-width: 35em) {
+  .social-media {
+    display: none;
+  }
+}

@@ -1,0 +1,30 @@
+@import "./../pages/components/loft-navigation.css";
+@import "./../pages/components/loft-burger.css";
+@import "./../pages/components/loft-footer.css";
+
+.photo {
+  width: 95%;
+  margin: 1em auto;
+}
+.photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  align-content: space-between;
+  margin-top: 6em;
+}
+.photo-gallery-image {
+  max-width: calc(50% - 1em);
+  margin-top: 1em;
+}
+
+.photo-gallery-image-item {
+  max-width: 100%;
+}
+
+@media (max-width: 35em) {
+  .social-media {
+    display: none;
+  }
+}

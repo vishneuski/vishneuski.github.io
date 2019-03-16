@@ -1,0 +1,58 @@
+@import url("../../root.css");
+
+:root {
+  --button-bg-color: var(--signal-black);
+  --button-text-color: var(--linen);
+  --button-border-color: var(--linen);
+  --button-focus-bg-color: var(--linen);
+  --button-focus-text-color: var(--signal-black);
+  --button-focus-border-color: var(--signal-black);
+  --button-active-bg-color: var(--signal-black);
+  --button-active-text-color: var(--linen);
+  --button-active-border-color: var(--linen);
+}
+
+.button {
+  display: inline-block;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0 1em;
+  margin: 0;
+  max-width: 100%;
+  height: 2.5em;
+  outline: none;
+  border: 1px solid var(--button-border-color);
+  border-radius: 0.5em;
+
+  color: var(--button-text-color);
+  background: var(--button-bg-color);
+
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 2.5em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+  letter-spacing: 0.025em;
+  white-space: nowrap;
+
+  transition: all 0.2s 0.15s ease-in-out;
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: scale(0.97);
+}
+
+.button:focus {
+  background: var(--button-focus-bg-color);
+  color: var(--button-focus-text-color);
+  border: 1px solid var(--button-focus-border-color);
+}
+
+.button:active {
+  background: var(--button-active-bg-color);
+  color: var(--button-active-text-color);
+  border: 1px solid var(--button-active-border-color);
+}
