@@ -1,6 +1,5 @@
 @import url(../../root.css);
 @import url(./loft-button.css);
-@import url(./loft-social-media.css);
 @import url(./loft-contact-form.css);
 
 :root {
@@ -35,6 +34,7 @@
 }
 
 .message.show {
+  z-index: 5;
   display: block;
   opacity: 0.95;
 }
@@ -45,6 +45,17 @@
   border-radius: 0.25em;
 }
 
-.contacts-message__form-input-field {
+.contacts-message-form-input-field {
   width: 100%;
+}
+
+.social-media-item {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0.25em;
+}
+
+.social-media-item-img {
+  width: 2em;
+  height: 2em;
 }

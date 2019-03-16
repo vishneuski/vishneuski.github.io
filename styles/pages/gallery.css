@@ -14,7 +14,7 @@
   align-content: space-between;
   margin-top: 6em;
 }
-.photo-gallery__image {
+.photo-gallery-image {
   max-width: calc(50% - 1em);
   margin-top: 1em;
 }

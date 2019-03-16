@@ -1,17 +1,16 @@
 @import url("./root.css");
 @import url("./pages/components/loft-button.css");
-@import url("./pages/components/loft-social-media.css");
 @import url("./pages/components/loft-contact-form.css");
 @import url("./pages/components/loft-footer.css");
 @import url("./pages/components/loft-navigation.css");
 
 :root {
-  --loft-navigation__link-text-color: var(--linen);
+  --loft-navigation-link-text-color: var(--linen);
   --loft-burger-icon-item-bg-color: var(--linen);
   --loft-main-image-bg-color: var(--signal-black);
-  --loft-navigation__link-hover-text-color: var(--signal-black);
-  --loft-navigation__link-hover-bg-color: var(--steel-blue);
-  --loft-navigation__link-active-text-color: var(--linen);
+  --loft-navigation-link-hover-text-color: var(--signal-black);
+  --loft-navigation-link-hover-bg-color: var(--steel-blue);
+  --loft-navigation-link-active-text-color: var(--linen);
   --loft-header-sticky-bg-color: var(--signal-black);
   --loft-main-layout-bg-color: var(--linen);
 }
@@ -50,17 +49,17 @@
 
 }
 
-.loft-navigation__link {
-  color: var(--loft-navigation__link-text-color);
+.loft-navigation-link {
+  color: var(--loft-navigation-link-text-color);
 }
 
-.loft-navigation__link:hover {
-  color: var(--loft-navigation__link-hover-text-color);
-  background: var(--loft-navigation__link-hover-bg-color);
+.loft-navigation-link:hover {
+  color: var(--loft-navigation-link-hover-text-color);
+  background: var(--loft-navigation-link-hover-bg-color);
 }
 
-.loft-navigation__link:active {
-  color: var(--loft-navigation__link-active-text-color);
+.loft-navigation-link:active {
+  color: var(--loft-navigation-link-active-text-color);
 }
 
 .burger-icon-item {
@@ -73,13 +72,13 @@
   background: var(--loft-main-layout-bg-color);
 }
 
-.loft-main__image {
+.loft-main-image {
   height: 50em;
   background: var(--loft-main-image-bg-color) url("./../images/loft-background/loft-background.jpg") no-repeat local top left;
   background-size: cover;
 }
 
-.loft-main__content-layout {
+.loft-main-content-layout {
   width: 90%;
   margin: 2em auto;
   line-height: 2em;
@@ -87,7 +86,7 @@
 
 /*-----PARALLAX-------*/
 
-.parallax_container {
+.parallax-container {
   display: flex;
   width: 90%;
   margin: 0 auto;

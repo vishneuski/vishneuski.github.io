@@ -1,9 +1,8 @@
 $(document).ready(function () {
 
-  var $item = $('.slider__list-item');
-  var $next = $('.slider__button-next');
-  var $prev = $('.slider__button-prev');
-  var $show = $('.slider__button-slide-show');
+  var $item = $('.slider-list-item');
+  var $next = $('.slider-button-next');
+  var $prev = $('.slider-button-prev');
 
   $item.first().addClass('visible');
 
@@ -27,7 +26,7 @@ $(document).ready(function () {
 
     $item.eq(index - 1).addClass('visible').fadeIn().siblings().removeClass('visible').fadeOut();
   });
-  
+
   // $show.click(function () {
   //   setInterval(function () {
   //     $next.click()

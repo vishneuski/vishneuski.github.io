@@ -9,7 +9,7 @@
   background: #ccc;
 }
 
-.slider__list {
+.slider-list {
   position: absolute;
   top: 0;
   right: 0;
@@ -20,7 +20,7 @@
   list-style: none;
 }
 
-.slider__list-item {
+.slider-list-item {
   position: absolute;
   top: 0;
   right: 0;
@@ -32,41 +32,35 @@
   opacity: 0;
 }
 
-.slider__list-item.visible {
+.slider-list-item.visible {
   opacity: 1;
 }
 
-.slider__list-item.slider-item1 {
+.slider-list-item.slider-item1 {
 background-image: url(../../../images/gallery-slider-img/gallery-1.jpg);
 }
-.slider__list-item.slider-item2 {
+.slider-list-item.slider-item2 {
 background-image: url(../../../images/gallery-slider-img/gallery-2.jpg);
 }
-.slider__list-item.slider-item3 {
+.slider-list-item.slider-item3 {
 background-image: url(../../../images/gallery-slider-img/gallery-3.jpg);
 }
-.slider__list-item.slider-item4 {
+.slider-list-item.slider-item4 {
 background-image: url(../../../images/gallery-slider-img/gallery-4.jpg);
 }
-.slider__list-item.slider-item5 {
+.slider-list-item.slider-item5 {
 background-image: url(../../../images/gallery-slider-img/gallery-5.jpg);
 }
-.slider__button {
+.slider-button {
   position: absolute;
   width: 5em;
   height: 2em;
 }
-.slider__button-prev {
+.slider-button-prev {
   top: 6em;
   right: -6em;
 }
-.slider__button-next {
+.slider-button-next {
   top: 10em;
   right: -6em;
-}
-
-.slider__button-slide-show {
-  top: 15em;
-  right: -6em;
-
 }

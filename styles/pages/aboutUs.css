@@ -2,9 +2,6 @@
 @import url("./components/loft-navigation.css");
 @import url("./components/loft-footer.css");
 
-:root {
-}
-
 .aboutUs-layout {
   width: 70%;
   margin: 7em auto 1em;

@@ -1,15 +1,18 @@
 @import url("./../../../styles/root.css");
 @import url("./../../../styles/pages/components/loft-button.css");
 
-.post-wrapper {
-  width: 90%;
-  margin: 1em auto;
+:root{
+  --post-text-color: var(--signal-black);
+  --author-text-color: var(--signal-black);
+  --blog-button-text-color: var(--signal-black);
+  --blog-button-bg-color: var(--white);
+  --blog-button-border-color: var(--signal-black);
 }
 
 .post {
   width: 80%;
   margin: 2em auto;
-  color: #292929;
+  color: var(--post-text-color);
 }
 
 .post-header {
@@ -18,7 +21,6 @@
   justify-content: center;
   padding: 2em 3em;
   align-items: center;
-  border-bottom: 1px solid gray;
 }
 
 .title {
@@ -28,10 +30,10 @@
 }
 
 .title h2 {
-  text-transform: uppercase;
-  letter-spacing: 0.3em;
   margin-bottom: 2em;
   font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
 }
 
 .meta {
@@ -48,10 +50,10 @@
 .author {
   display: flex;
   justify-content: center;
+  padding-left: 2em;
+  color: var(--author-text-color);
   align-items: center;
   text-decoration: none;
-  color: #292929;
-  padding-left: 2em;
 }
 
 .author-photo {
@@ -61,11 +63,11 @@
 }
 
 .author-name {
-  text-transform: uppercase;
+  margin: 0 0 0 1em;
   font-size: 0.8em;
   font-weight: bold;
+  text-transform: uppercase;
   letter-spacing: 0.1em;
-  margin: 0 0 0 1em;
 }
 
 .post-image-item {
@@ -85,8 +87,8 @@
 }
 
 .blog-button {
-  background: white;
-  color: #292929;
-  border: 1px solid #292929;
+  color: var(--blog-button-text-color);
+  background: var(--blog-button-bg-color);
+  border: 1px solid var(--blog-button-border-color);
   font-size: 0.75em;
 }

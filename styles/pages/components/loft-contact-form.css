@@ -7,18 +7,18 @@
   --button-contacts-bg-color: var(--signal-black);
   --contacts-message-text-color: var(--white);
   --contacts-message-bg-color: var(--signal-black);
-  --contacts-message__headline-border-color: var(--white);
-  --contacts-message__form-input-field-border-color: var(--white);
-  --contacts-message__form-input-field-text-color: var(--white);
-  --contacts-message__form-input-field-bg-color: var(--signal-black);
-  --contacts-message__form-textarea-field-border-color: var(--white);
-  --contacts-message__form-textarea-field-text-color: var(--white);
-  --contacts-message__form-textarea-field-bg-color: var(--signal-black);
-  --contacts-address__headline-border-color: var(--signal-black);
+  --contacts-message-headline-border-color: var(--white);
+  --contacts-message-form-input-field-border-color: var(--white);
+  --contacts-message-form-input-field-text-color: var(--white);
+  --contacts-message-form-input-field-bg-color: var(--signal-black);
+  --contacts-message-form-textarea-field-border-color: var(--white);
+  --contacts-message-form-textarea-field-text-color: var(--white);
+  --contacts-message-form-textarea-field-bg-color: var(--signal-black);
+  --contacts-address-headline-border-color: var(--signal-black);
 }
 
 .contacts-form {
-  width:100%;
+  width: 100%;
   margin: 0;
   padding: 0;
 }
@@ -37,27 +37,27 @@
   background: var(--contacts-message-bg-color);
 }
 
-.contacts-message__headline {
+.contacts-message-headline {
   width: max-content;
   width: -moz-max-content;
   margin-bottom: 2em;
-  border-bottom: 1px solid var(--contacts-message__headline-border-color);
+  border-bottom: 1px solid var(--contacts-message-headline-border-color);
   letter-spacing: 0.1em;
 }
 
-.contacts-message__form-input {
+.contacts-message-form-input {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
 }
 
-.contacts-message__form-input-field {
+.contacts-message-form-input-field {
   width: calc(50% - 0.5rem);
   margin-bottom: 1em;
 }
 
-.contacts-message__form-input-field label {
+.contacts-message-form-input-field label {
   display: block;
   margin-bottom: 1em;
   text-transform: uppercase;
@@ -66,25 +66,25 @@
   line-height: 1.5em;
 }
 
-.contacts-message__form-input-field input {
+.contacts-message-form-input-field input {
   display: block;
   box-sizing: border-box;
   width: 100%;
   padding-left: 1em;
   outline: none;
-  border: 1px solid var(--contacts-message__form-input-field-border-color);
+  border: 1px solid var(--contacts-message-form-input-field-border-color);
   border-radius: 0.5em;
-  color: var(--contacts-message__form-input-field-text-color);
-  background: var(--contacts-message__form-input-field-bg-color);
+  color: var(--contacts-message-form-input-field-text-color);
+  background: var(--contacts-message-form-input-field-bg-color);
   line-height: 3em;
 }
 
-.contacts-message__form-textarea {
+.contacts-message-form-message-area {
   width: 100%;
   margin: 1em 0;
 }
 
-.contacts-message__form-textarea label {
+.contacts-message-form-message-area label {
   display: block;
   margin-bottom: 1em;
   text-transform: uppercase;
@@ -93,17 +93,17 @@
   line-height: 1.5em;
 }
 
-.contacts-message__form-textarea-field {
+.contacts-message-form-message-area-field {
   display: block;
   width: 100%;
   box-sizing: border-box;
   resize: none;
   padding: 1em 0 0 1em;
   outline: none;
-  border: 1px solid var(--contacts-message__form-textarea-field-border-color);
+  border: 1px solid var(--contacts-message-form-textarea-field-border-color);
   border-radius: 0.5em;
-  color: var(--contacts-message__form-textarea-field-text-color);
-  background: var(--contacts-message__form-textarea-field-bg-color);
+  color: var(--contacts-message-form-textarea-field-text-color);
+  background: var(--contacts-message-form-textarea-field-bg-color);
 }
 
 .contacts-button-layout {
@@ -122,42 +122,40 @@
   padding: 0 2em 0 4em;
 }
 
-
-
-.contacts-address__headline {
+.contacts-address-headline {
   width: max-content;
   width: -moz-max-content;
   margin: 4em 0 2em;
-  border-bottom: 1px solid var(--contacts-address__headline-border-color);
+  border-bottom: 1px solid var(--contacts-address-headline-border-color);
 }
 
 .contacts-address-item:first-child {
   margin: 0;
 }
 
-.contacts-address__social-media {
+.contacts-address-social-media {
   margin-top: 5em;
 }
 
-.contacts-address__social-media-item {
+.contacts-address-social-media-item {
   display: inline-block;
   box-sizing: border-box;
   padding: 0.25em;
 }
 
-.contacts-address__social-media-item-img {
+.contacts-address-social-media-item-img {
   width: 2em;
   height: 2em;
 }
 
 @media (max-width: 65em) {
-  .contacts-message__form-input-field {
+  .contacts-message-form-input-field {
     width: 100%;
   }
 }
 
 @media (max-width: 35em) {
-  .contacts-address, .contacts-message{
+  .contacts-address, .contacts-message {
     width: 100%;
   }
 }
