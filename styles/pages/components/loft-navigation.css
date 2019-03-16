@@ -3,12 +3,12 @@
 :root {
   --navigation-link-text-color: var(--linen);
   --navigation-link-hover-text-color: var(--white);
-  --navigation-link-focus-text-color: var(--steel-blue);
+  --navigation-link-focus-text-color: var(--white);
   --burger-icon-item-bg-color: var(--linen);
   --burger-icon-item-content-color: var(--white);
   --navigation-link-hover-bg-color: var(--signal-black);
   --navigation-active-bg-color: var(--cofee);
-  --navigation-layout-bg-color: var(--cadet-blue);
+  --navigation-layout-bg-color: var(--steel-blue);
   --navigation-layout-sticky-bg-color: var(--signal-black);
   --logo-text-color: var(--linen);
   --butrger-icon-item-recolored-bg-color: var(--linen);

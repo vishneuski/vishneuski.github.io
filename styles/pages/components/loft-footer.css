@@ -4,6 +4,7 @@
 
 :root {
   --loft-footer-bg-color: var(--steel-blue);
+  --copyright-text-color: var(--white);
 }
 
 .loft-footer-layout {
@@ -58,4 +59,8 @@
 .social-media-item-img {
   width: 2em;
   height: 2em;
+}
+
+.copyright {
+  color: var(--copyright-text-color);
 }

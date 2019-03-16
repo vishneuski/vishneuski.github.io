@@ -19,6 +19,10 @@
   margin-top: 1em;
 }
 
+.photo-gallery-image-item {
+  max-width: 100%;
+}
+
 @media (max-width: 35em) {
   .social-media {
     display: none;
