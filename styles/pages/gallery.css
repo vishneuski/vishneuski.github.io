@@ -1,6 +1,6 @@
-@import "./../pages/components/loft-navigation.css";
-@import "./../pages/components/loft-burger.css";
-@import "./../pages/components/loft-footer.css";
+@import url("./../pages/components/loft-navigation.css");
+/*@import url("./../pages/components/loft-burger.css");*/
+@import url("./../pages/components/loft-footer.css");
 
 .photo {
   width: 95%;

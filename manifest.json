@@ -1,22 +1,14 @@
 {
   "short_name" : "Loft",
-  "name" : "the Loft",
+  "name" : "Ремесленная мастерская the Loft",
   "description" : "Мебель, сделанная с душой",
-  "background_color" : "#FFF",
+  "background_color" : "#FFFFFF",
   "theme_color" : "#292929",
   "start_url" : "/index.html",
   "display" : "standalone",
   "orientation" : "portrait",
   "icons" : [
     {
-      "src": "images/manifest-icons/manifest16.png",
-      "type": "image/png",
-      "sizes": "16x16"
-    }, {
-      "src": "images/manifest-icons/manifest32.png",
-      "type": "image/png",
-      "sizes": "32X32"
-    }, {
       "src": "images/manifest-icons/manifest96.png",
       "type": "image/png",
       "sizes": "96x96"
@@ -28,6 +20,10 @@
       "src": "images/manifest-icons/manifest192.png",
       "type": "image/png",
       "sizes": "192x192"
+    }, {
+      "src": "images/manifest-icons/manifest192.png",
+      "type": "image/png",
+      "sizes": "256x256"
     }
   ]
 }
