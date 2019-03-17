@@ -64,3 +64,9 @@
 .copyright {
   color: var(--copyright-text-color);
 }
+
+@media (max-width: 35em) {
+  .contacts-message {
+    width: 15em;
+  }
+}

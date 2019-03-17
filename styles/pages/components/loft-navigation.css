@@ -29,7 +29,6 @@
 }
 
 .navigation-layout.sticky {
-  z-index: 10;
   background: var(--navigation-layout-sticky-bg-color);
   transition: background 0.3s ease-out;
   opacity: 0.98;
