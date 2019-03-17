@@ -128,7 +128,6 @@
 .logo.sticky {
   position: fixed;
   top: 1em;
-  right: 11em;
   width: 3.5em;
   height: 3.5em;
   transition: all .5s ease-out;
