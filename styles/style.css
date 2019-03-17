@@ -37,12 +37,14 @@
 
 .loft-logo {
   top: 2em;
+  right: 6em;
   width: 4.5em;
   height: 4.5em;
 }
 
 .loft-logo.sticky {
   top: 0.8em;
+  right: 9em;
   width: 4em;
   height: 4em;
   z-index: 3;
