@@ -14,8 +14,7 @@
   --loft-header-sticky-bg-color: var(--signal-black);
 }
 
-/*--------HEADER-------*/
-
+/*-----HEADER-----*/
 .loft-header {
   position: fixed;
   top: 0;
@@ -48,7 +47,6 @@
   width: 4em;
   height: 4em;
   z-index: 3;
-
 }
 
 .loft-navigation-link {
@@ -68,7 +66,18 @@
   background: var(--loft-burger-icon-item-bg-color);
 }
 
-/*------MAIN-------*/
+/*-----MAIN-----*/
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.main {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+}
 
 .loft-main-layout {
   width: 100%;
@@ -76,7 +85,7 @@
 
 .loft-main-image {
   height: 50em;
-  background: var(--loft-main-image-bg-color) url("./../images/loft-background/loft-background.jpg") no-repeat local top left;
+  background: var(--loft-main-image-bg-color) url("./../images/loft-background/loft-background.jpg") no-repeat local left center;
   background-size: cover;
 }
 

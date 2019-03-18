@@ -12,8 +12,21 @@
   --slider-button-focus-bg-color: var(--signal-black);
   --slider-button-focus-border-color: var(--wheat);
 }
+
 body {
   background: var(--body-bg-color);
+}
+
+.wrapper {
+display: flex;
+flex-direction: column;
+height: 100%;
+}
+
+.main {
+flex-grow: 1;
+flex-shrink: 0;
+flex-basis: auto;
 }
 
 .gallery-navigation-layout {

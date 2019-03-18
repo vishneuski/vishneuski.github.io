@@ -2,6 +2,18 @@
 @import url("./components/loft-navigation.css");
 @import url("./components/loft-footer.css");
 
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.main {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+}
+
 .aboutUs-layout {
   width: 70%;
   margin: 7em auto 1em;

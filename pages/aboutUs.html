@@ -21,58 +21,63 @@
           content="https://www.vishneuski.github.io/images/tools.png">
   </head>
   <body>
-    <div class="navigation-layout">
-      <nav class="navigation">
-        <ul class="navigation-links-group">
-          <li class="navigation-links-group-item">
-            <a class="navigation-link" href="./../index.html">Главная</a>
-          </li>
-          <li class="navigation-links-group-item">
-            <a class="navigation-link" href="./aboutUs.html">О нас</a>
-          </li>
-          <li class="navigation-links-group-item">
-            <a class="navigation-link" href="./gallery.html">Галерея</a>
-          </li>
-          <li class="navigation-links-group-item">
-            <a class="navigation-link" href="./blog.html">Наш блог</a>
-          </li>
-          <li class="navigation-links-group-item">
-            <a class="navigation-link" href="./contacts.html">Контакты</a>
-          </li>
-        </ul>
-      </nav>
-      <section>
-        <a href="./aboutUs.html">
-          <picture>
-            <img class="logo" src="./../images/header-logo/loft-logo-white.png" alt="loft logo">
-          </picture>
-        </a>
-      </section>
-      <div class="burger-icon" id="burger" role="navigation">
-        <span class="burger-icon-item"></span>
-        <span class="burger-icon-item"></span>
-        <span class="burger-icon-item"></span>
+    <header>
+      <div class="navigation-layout">
+        <nav class="navigation">
+          <ul class="navigation-links-group">
+            <li class="navigation-links-group-item">
+              <a class="navigation-link" href="./../index.html">Главная</a>
+            </li>
+            <li class="navigation-links-group-item">
+              <a class="navigation-link" href="./aboutUs.html">О нас</a>
+            </li>
+            <li class="navigation-links-group-item">
+              <a class="navigation-link" href="./gallery.html">Галерея</a>
+            </li>
+            <li class="navigation-links-group-item">
+              <a class="navigation-link" href="./blog.html">Наш блог</a>
+            </li>
+            <li class="navigation-links-group-item">
+              <a class="navigation-link" href="./contacts.html">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <section>
+          <a href="./aboutUs.html">
+            <picture>
+              <img class="logo" src="./../images/header-logo/loft-logo-white.png" alt="loft logo">
+            </picture>
+          </a>
+        </section>
+        <div class="burger-icon" id="burger" role="navigation">
+          <span class="burger-icon-item"></span>
+          <span class="burger-icon-item"></span>
+          <span class="burger-icon-item"></span>
+        </div>
       </div>
-    </div>
-    <div class="aboutUs-layout">
-      <section class="aboutUs">
-        <h1 class="aboutUs-headline">Кто мы?</h1>
-        <p>Мы - группа единомышленников, делающих мебель, которую Вы вряд ли встретите в (беларуском) магазине. Мы
-          любим делать это и мы делаем это с душой. Вы можете спросить: "А чем же Ваша мебель отличается от остальной
-          мебели?!" И тут Мы можем рассказать Вам об алфавите нашей мебели. Нет-нет, Вы не ослышались - об
-          Алфавите!)))</p>
-        <h3>Д - Долговечность</h3>
-        <p>- Мама, а откуда у нас этот стул?<br>- Этот стул, сынок, нашему Дедушке достался от его Дедушки.</p>
-        <h3>П - Прочность</h3>
-        <p>- Да-да!! Прямо на этом столе можешь рубить мясо топором, ничего со столом не случится!</p>
-        <h3>У - Уникальность</h3>
-        <p>- Да что это вообще такое??!!</p>
-        <h3>Э - Экологичность</h3>
-        <p>- Как же надоел этот бобёр!! Пятый раз он начинает грызть ножку нашего стола!!</p>
-      </section>
-    </div>
-    <footer>
-      <div class="loft-footer-layout">
+    </header>
+    <div class="wrapper">
+      <div class="main" role="main">
+        <div class="aboutUs-layout">
+          <section class="aboutUs">
+            <h1 class="aboutUs-headline">Кто мы?</h1>
+            <p>Мы - группа единомышленников, делающих мебель, которую Вы вряд ли встретите в (беларуском) магазине. Мы
+              любим делать это и мы делаем это с душой. Вы можете спросить: "А чем же Ваша мебель отличается от
+              остальной
+              мебели?!" И тут Мы можем рассказать Вам об алфавите нашей мебели. Нет-нет, Вы не ослышались - об
+              Алфавите!)))</p>
+            <h3>Д - Долговечность</h3>
+            <p>- Мама, а откуда у нас этот стул?<br>- Этот стул, сынок, нашему Дедушке достался от его Дедушки.</p>
+            <h3>П - Прочность</h3>
+            <p>- Да-да!! Прямо на этом столе можешь рубить мясо топором, ничего со столом не случится!</p>
+            <h3>У - Уникальность</h3>
+            <p>- Да что это вообще такое??!!</p>
+            <h3>Э - Экологичность</h3>
+            <p>- Как же надоел этот бобёр!! Пятый раз он начинает грызть ножку нашего стола!!</p>
+          </section>
+        </div>
+      </div>
+      <footer class="loft-footer-layout">
         <span class="copyright">&#169; Sergei Vishneuski 2019</span>
         <div class="social-media">
           <a class="social-media-item" href="#">
@@ -149,10 +154,10 @@
             </form>
           </section>
         </div>
-      </div>
-      <script src="./../scripts/lib/jquery-3.2.1.js"></script>
-      <script src="./../scripts/burger.js"></script>
-      <script src="./../scripts/loft-letter-send.js"></script>
-    </footer>
+      </footer>
+    </div>
+    <script src="./../scripts/lib/jquery-3.2.1.js"></script>
+    <script src="./../scripts/burger.js"></script>
+    <script src="./../scripts/loft-letter-send.js"></script>
   </body>
 </html>
