@@ -15,6 +15,7 @@
 }
 
 /*-----HEADER-----*/
+
 .loft-header {
   position: fixed;
   top: 0;
@@ -67,6 +68,7 @@
 }
 
 /*-----MAIN-----*/
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -95,7 +97,7 @@
   line-height: 2em;
 }
 
-/*-----PARALLAX-------*/
+/*-----PARALLAX-----*/
 
 .parallax-container {
   display: flex;
@@ -116,7 +118,6 @@
 .parallax-image1 {
   background-image: url("./../images/parallax-images/parallax1.jpg");
   background-position: center;
-
 }
 
 .parallax-image2 {
