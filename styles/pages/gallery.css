@@ -4,13 +4,16 @@
 @import url("./../pages/components/loft-footer.css");
 
 :root {
-  --slider-list-bg-color: var(--linen);
-  --gallery-burger-icon-item-bg-color: var(--signal-black);
-  --gallery-burger-icon-item-rotate-bg-color: var(--white);
+  --body-bg-color: var(--signal-black);
+  --slider-list-bg-color: var(--signal-black);
+  --gallery-burger-icon-item-bg-color: var(--white);
   --slider-button-bg-color: var(--steel-blue);
   --slider-button-border-color: var(--wheat);
   --slider-button-focus-bg-color: var(--signal-black);
   --slider-button-focus-border-color: var(--wheat);
+}
+body {
+  background: var(--body-bg-color);
 }
 
 .gallery-navigation-layout {
@@ -24,10 +27,6 @@
 
 .gallery-burger-icon-item {
   background: var(--gallery-burger-icon-item-bg-color);
-}
-
-.gallery-burger-icon-item.rotate {
-  background: var(--gallery-burger-icon-item-rotate-bg-color);
 }
 
 .slider-wrapper {
