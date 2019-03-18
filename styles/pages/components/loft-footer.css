@@ -65,8 +65,8 @@
   color: var(--copyright-text-color);
 }
 
-/*@media (max-width: 35em) {*/
-  /*.contacts-message {*/
-    /*width: 15em;*/
-  /*}*/
-/*}*/
+@media (max-width: 35em) {
+  .social-media {
+    display: none;
+  }
+}

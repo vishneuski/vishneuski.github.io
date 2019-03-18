@@ -9,8 +9,8 @@
     <link rel="manifest" href="./../manifest.json">
   </head>
   <body>
-    <div class="navigation-layout">
-      <nav class="navigation">
+    <div class="navigation-layout gallery-navigation-layout">
+      <nav class="navigation gallery-navigation">
         <ul class="navigation-links-group">
           <li class="navigation-links-group-item">
             <a class="navigation-link" href="./../index.html">Главная</a>
@@ -32,43 +32,43 @@
       <section>
         <a href="./gallery.html">
           <picture>
-            <img class="logo" src="./../images/header-logo/loft-logo-white.png" alt="loft logo">
+            <img class="logo gallery-logo" src="./../images/header-logo/loft-logo-white.png" alt="loft logo">
           </picture>
         </a>
       </section>
-      <div id="burger" class="burger-icon" role="navigation">
-        <span class="burger-icon-item"></span>
-        <span class="burger-icon-item"></span>
-        <span class="burger-icon-item"></span>
+      <div id="burger" class="burger-icon gallery-burger-icon" role="navigation">
+        <span class="burger-icon-item gallery-burger-icon-item"></span>
+        <span class="burger-icon-item gallery-burger-icon-item"></span>
+        <span class="burger-icon-item gallery-burger-icon-item"></span>
       </div>
     </div>
-    <div class="photo">
-      <section class="photo-gallery">
-        <picture class="photo-gallery-image">
-          <img class="photo-gallery-image-item" src="./../images/gallery-img/gallery1.jpg" alt="">
-        </picture>
-        <picture class="photo-gallery-image">
-          <img class="photo-gallery-image-item" src="./../images/gallery-img/gallery2.jpg" alt="">
-        </picture>
-        <picture class="photo-gallery-image">
-          <img class="photo-gallery-image-item" src="./../images/gallery-img/gallery3.jpg" alt="">
-        </picture>
-        <picture class="photo-gallery-image">
-          <img class="photo-gallery-image-item" src="./../images/gallery-img/gallery4.jpg" alt="">
-        </picture>
-        <picture class="photo-gallery-image">
-          <img class="photo-gallery-image-item" src="./../images/gallery-img/gallery5.jpg" alt="">
-        </picture>
-        <picture class="photo-gallery-image">
-          <img class="photo-gallery-image-item" src="./../images/gallery-img/gallery6.jpg" alt="">
-        </picture>
-        <picture class="photo-gallery-image">
-          <img class="photo-gallery-image-item" src="./../images/gallery-img/gallery7.jpg" alt="">
-        </picture>
-        <picture class="photo-gallery-image">
-          <img class="photo-gallery-image-item" src="./../images/gallery-img/gallery8.jpg" alt="">
-        </picture>
-      </section>
+    <div class="slider-wrapper">
+      <div class="slider">
+        <ul class="slider-list">
+          <li class="slider-list-item slider-item1"></li>
+          <li class="slider-list-item slider-item2"></li>
+          <li class="slider-list-item slider-item3"></li>
+          <li class="slider-list-item slider-item4"></li>
+          <li class="slider-list-item slider-item5"></li>
+          <li class="slider-list-item slider-item6"></li>
+          <li class="slider-list-item slider-item7"></li>
+          <li class="slider-list-item slider-item8"></li>
+          <li class="slider-list-item slider-item9"></li>
+          <li class="slider-list-item slider-item10"></li>
+          <li class="slider-list-item slider-item11"></li>
+          <li class="slider-list-item slider-item12"></li>
+        </ul>
+        <a class="button slider-button slider-button-prev"
+           tabindex="0"
+           role="button"
+        >Prev
+        </a>
+        <a class="button slider-button slider-button-next"
+           tabindex="0"
+           role="button"
+        >Next
+        </a>
+      </div>
     </div>
     <footer>
       <div class="loft-footer-layout">
@@ -150,6 +150,7 @@
         </div>
       </div>
       <script src="./../scripts/lib/jquery-3.2.1.js  "></script>
+      <script src="./../scripts/loft-gallery-slider.js"></script>
       <script src="./../scripts/loft-letter-send.js"></script>
       <script src="./../scripts/burger.js"></script>
     </footer>

@@ -4,10 +4,6 @@
 @import url("./components/loft-footer.css");
 @import url("./components/loft-contact-form.css");
 
-:root {
-
-}
-
 .contacts-layout {
   margin-top: 6em;
   width: 100%;
@@ -18,7 +14,6 @@
 }
 
 @media (max-width: 35em) {
-
   .contacts-form-layout {
     flex-wrap: wrap;
   }
