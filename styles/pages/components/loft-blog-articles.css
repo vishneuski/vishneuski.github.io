@@ -46,10 +46,6 @@
   width: 100%;
 }
 
-.published {
-  white-space: nowrap;
-}
-
 .author {
   display: flex;
   justify-content: center;
@@ -89,7 +85,6 @@
 .post-content {
   display: flex;
   flex-direction: column;
-
 }
 
 .blog-button {
