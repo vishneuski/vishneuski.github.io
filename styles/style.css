@@ -85,7 +85,7 @@
 
 .loft-main-image {
   height: 50em;
-  background: var(--loft-main-image-bg-color) url("./../images/loft-background/loft-background.jpg") no-repeat local left center;
+  background: var(--loft-main-image-bg-color) url("./../images/loft-background/loft-background.jpg") no-repeat local top center;
   background-size: cover;
 }
 

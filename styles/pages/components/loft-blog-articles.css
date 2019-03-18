@@ -46,10 +46,6 @@
   width: 100%;
 }
 
-.published {
-  white-space: nowrap;
-}
-
 .author {
   display: flex;
   justify-content: center;
