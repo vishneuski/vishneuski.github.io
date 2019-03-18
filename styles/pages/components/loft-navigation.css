@@ -11,8 +11,6 @@
   --navigation-layout-bg-color: var(--steel-blue);
   --navigation-layout-sticky-bg-color: var(--signal-black);
   --logo-text-color: var(--linen);
-  /*--butrger-icon-item-recolored-bg-color: var(--linen);*/
-  /*--butrger-icon-item-recolored-text-color: var(--linen);*/
 }
 
 .navigation-layout {
