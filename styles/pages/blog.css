@@ -4,6 +4,12 @@
 @import url("./../../styles/pages/components/loft-blog-articles.css");
 @import url("./../../styles/pages/components/loft-footer.css");
 
+:root {
+  --blog-button-bg-color: var(--white);
+  --blog-button-text-color: var(--steel-blue);
+  --blog-button-border-color: var(--signal-black);
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -27,6 +33,12 @@
 
 .post-layout-item {
   width: calc(50% - 1em);
+}
+
+.blog-button:hover {
+  border-color: var(--blog-button-border-color);
+  background: var(--blog-button-bg-color);
+  color: var(--blog-button-text-color);
 }
 
 @media (max-width: 50em) {
