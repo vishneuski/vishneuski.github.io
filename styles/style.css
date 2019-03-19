@@ -93,15 +93,23 @@
 
 .loft-main-content-layout {
   width: 90%;
+  margin: 1em auto;
+  font-size: 1rem;
+  box-sizing: border-box;
+  text-align: justify;
+  line-height: 1.75em;
+}
+
+.loft-main-content{
+  width: 100%;
   margin: 2em auto;
-  line-height: 2em;
 }
 
 /*-----PARALLAX-----*/
 
 .parallax-container {
   display: flex;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   height: 20em;
 }
@@ -124,23 +132,4 @@
   background-image: url("./../images/parallax-images/parallax2.jpg");
   background-position: center;
   box-sizing: border-box;
-}
-
-.loft-main-content-layout {
-  text-align: justify;
-  line-height: 1.75em;
-}
-
-.parallax-between {
-  width: 90%;
-  line-height: 1.75em;
-  margin: 1em auto;
-  box-sizing: border-box;
-  text-align: justify;
-}
-
-.parallax-between-last {
-  box-sizing: border-box;
-  margin-bottom: 0;
-  padding-bottom: 2em;
 }
