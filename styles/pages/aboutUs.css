@@ -2,6 +2,17 @@
 @import url("./components/loft-navigation.css");
 @import url("./components/loft-footer.css");
 
+:root {
+  --aboutUs-headline-color: var(--steel-blue);
+  --aboutUs-slider-item-description-text-color: var(--linen);
+  --aboutUs-slider-item-description-shadow-color: var(--signal-black);
+  --aboutUs-slider-item-bg-color: var(--white);
+}
+
+.aboutUs-navigation-layout, .aboutUs-logo, .aboutUs-burger-icon {
+  position: absolute;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -15,25 +26,99 @@
 }
 
 .aboutUs-layout {
-  width: 70%;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
   margin: 7em auto 1em;
   box-sizing: border-box;
 }
 
 .aboutUs-headline {
+  box-sizing: border-box;
+  margin-top: 2em;
+  color: var(--aboutUs-headline-color);
   text-align: center;
-  margin: 0;
 }
 
 .aboutUs {
   display: flex;
   flex-direction: column;
-  line-height: 1.75em;
+  line-height: 1.75rem;
   text-align: justify;
 }
 
-@media (max-width: 35em) {
+.aboutUs-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutUs-slider-item {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-basis: 20%;
+  height: 30em;
+  background-size: cover;
+  transition: 1s;
+  opacity: 0.7;
+  background: var(--aboutUs-slider-item-bg-color);
+}
+
+.aboutUs-slider-item:hover {
+  flex-basis: 60%;
+  opacity: 1;
+}
+
+.aboutUs-slider-item-description {
+  display: inline-block;
+  padding-bottom: 2em;
+  color: var(--aboutUs-slider-item-description-text-color);
+  font-weight: bold;
+  text-shadow: 0 0 0.5em var(--aboutUs-slider-item-description-shadow-color);
+  cursor: default;
+}
+
+.aboutUs-slider-item1 {
+  background: url("./../../images/aboutUs/aboutUs1.jpg") no-repeat center;
+}
+
+.aboutUs-slider-item2 {
+  background: url("./../../images/aboutUs/aboutUs2.jpg") no-repeat top center;
+}
+
+.aboutUs-slider-item3 {
+  background: url("./../../images/aboutUs/aboutUs3.jpg") no-repeat center;
+}
+
+.aboutUs-slider-item4 {
+  background: url("./../../images/aboutUs/aboutUs4.jpg") no-repeat center;
+}
+
+.aboutUs-slider-item5 {
+  background: url("./../../images/aboutUs/aboutUs5.jpg") no-repeat center;
+}
+
+.aboutUs-social-media {
+  display: none;
+}
+
+@media (max-width: 40em) {
   .aboutUs-layout {
     width: 90%;
+  }
+
+  .aboutUs-slider {
+    flex-flow: column;
+    height: 100%;
+  }
+
+  .aboutUs-slider-item {
+    width: 100%;
+  }
+
+  .aboutUs-social-media {
+    display: flex;
+    margin-top: 1em;
   }
 }
