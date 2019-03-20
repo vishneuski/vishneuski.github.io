@@ -16,6 +16,7 @@
   margin: 0 auto 1em;
   color: var(--post-text-color);
   border-bottom: 1px solid var(--post-border-bottom-color);
+  font-size: 1rem;
 }
 
 .post-header {
