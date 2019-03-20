@@ -2,6 +2,7 @@ $(document).ready(function () {
   $('#burger').click(function () {
     $('.navigation').toggleClass('active');
     $('.burger-icon-item').toggleClass('rotate');
+    $('.loader').toggleClass('unseen');
   });
 
   $(window).scroll(function () {
