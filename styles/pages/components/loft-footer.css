@@ -18,6 +18,7 @@
   justify-content: space-around;
   align-items: center;
   background: var(--loft-footer-bg-color);
+  font-size: 1rem;
 }
 
 #letter-icon {
@@ -47,6 +48,7 @@
   padding: 1em;
   width: 14em;
   border-radius: 0.5em 0 0 0;
+  font-size: 1rem;
 }
 
 .contacts-message-form-input-field {

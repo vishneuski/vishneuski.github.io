@@ -35,10 +35,11 @@
 
 .navigation-links-group {
   display: flex;
-  list-style: none;
+  padding: 2em;
   margin: 0;
   box-sizing: border-box;
-  padding: 2em;
+  list-style: none;
+  font-size: 1rem;
 }
 
 .navigation-links-group-item {
