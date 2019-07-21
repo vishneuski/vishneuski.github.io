@@ -5,7 +5,7 @@
 @import url("./pages/components/loft-navigation.css");
 
 :root {
-  --loft-navigation-link-text-color: var(--linen);
+  --loft-navigation-link-text-color: var(--wheat);
   --loft-burger-icon-item-bg-color: var(--linen);
   --loft-main-image-bg-color: var(--signal-black);
   --loft-navigation-link-hover-text-color: var(--signal-black);
@@ -15,6 +15,12 @@
 }
 
 /*-----HEADER-----*/
+
+.main-wrapper {
+  width: 100%;
+  max-width: 100em;
+  margin: 0 auto;
+}
 
 .loft-header {
   position: fixed;
@@ -99,7 +105,7 @@
   line-height: 1.75em;
 }
 
-.loft-main-content{
+.loft-main-content {
   width: 100%;
   margin: 2em auto;
   font-size: 1rem;
