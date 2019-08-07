@@ -58,7 +58,7 @@
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  flex-basis: 20%;
+  flex-basis: 30%;
   height: 30em;
   background-size: cover;
   transition: 1s;
@@ -67,7 +67,7 @@
 }
 
 .aboutUs-slider-item:hover {
-  flex-basis: 60%;
+  flex-basis: 45%;
   opacity: 1;
 }
 
